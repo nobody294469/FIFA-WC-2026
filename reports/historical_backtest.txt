@@ -1,0 +1,37 @@
+----------------------------------------------------------------------------------
+  HISTORICAL WORLD CUP BACKTEST  —  Production Model
+----------------------------------------------------------------------------------
+  2014 FIFA World Cup
+    Champion probability on actual winner (Germany): 15.79%
+    Group qualification accuracy : 0.625
+    Quarterfinalist accuracy     : 0.500
+    Semifinalist accuracy        : 0.750
+    Advancement Brier score      : 0.1159
+    Model strengths              : ['eventual champion placed in top-5 winner probabilities', 'semi-finalist shortlist captured at least half of actual semi-finalists']
+    Model failures               : ['group-stage qualification misses were material']
+
+  2018 FIFA World Cup
+    Champion probability on actual winner (France): 3.77%
+    Group qualification accuracy : 0.812
+    Quarterfinalist accuracy     : 0.375
+    Semifinalist accuracy        : 0.000
+    Advancement Brier score      : 0.1252
+    Model strengths              : ['group-stage qualification signal was strong']
+    Model failures               : ['eventual champion was outside the top-5 winner probabilities', 'semi-finalist shortlist missed most of the eventual final four', 'quarterfinal field was less stable than simulated probabilities suggested']
+
+  2022 FIFA World Cup
+    Champion probability on actual winner (Argentina): 23.83%
+    Group qualification accuracy : 0.562
+    Quarterfinalist accuracy     : 0.625
+    Semifinalist accuracy        : 0.500
+    Advancement Brier score      : 0.1149
+    Model strengths              : ['eventual champion placed in top-5 winner probabilities', 'semi-finalist shortlist captured at least half of actual semi-finalists']
+    Model failures               : ['group-stage qualification misses were material']
+
+  Aggregate Summary
+    Mean champion probability on actual winners : 14.46%
+    Mean group qualification accuracy           : 0.667
+    Mean quarterfinalist accuracy               : 0.500
+    Mean semifinalist accuracy                  : 0.417
+    Mean advancement Brier score                : 0.1187
+----------------------------------------------------------------------------------

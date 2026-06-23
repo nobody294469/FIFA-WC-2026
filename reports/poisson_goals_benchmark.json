@@ -1,0 +1,45 @@
+{
+  "gate_passed": false,
+  "brier_delta": 0.0007363227734374783,
+  "grp_acc_delta": 0.0,
+  "draw_gate_val": 0.012399514177040133,
+  "binary_backtest": {
+    "mean_grp_acc": 0.6458333333333334,
+    "mean_qf_acc": 0.5416666666666666,
+    "mean_sf_acc": 0.4166666666666667,
+    "mean_adv_brier": 0.12041986156250002,
+    "mean_champ_pct": 11.315000000000003,
+    "total_runtime_s": 57.05037619999712
+  },
+  "poisson_backtest": {
+    "mean_grp_acc": 0.6458333333333334,
+    "mean_qf_acc": 0.5833333333333334,
+    "mean_sf_acc": 0.4166666666666667,
+    "mean_adv_brier": 0.1211561843359375,
+    "mean_champ_pct": 12.371666666666668,
+    "total_runtime_s": 74.25770619999821
+  },
+  "disagreement": {
+    "top2_disagreement_rate": 0.894685,
+    "top1_disagreement_rate": 0.59992,
+    "draw_rate_binary": 0.24843125,
+    "draw_rate_poisson": 0.20795166666666667,
+    "mean_goals_per_match": 2.82147,
+    "mean_abs_gd_binary": 1.2802175,
+    "mean_abs_gd_poisson": 3.221435
+  },
+  "overhead": {
+    "binary_s": 0.5567962333328372,
+    "poisson_s": 0.6085962000003443,
+    "overhead_ratio": 1.0930321786795252,
+    "n_sims": 50000,
+    "n_repeats": 3
+  },
+  "hist_stats": {
+    "draw_rate": 0.22199170124481327,
+    "goals_per_match": 2.8215767634854774,
+    "mean_abs_gd": 1.92,
+    "total_matches": 964
+  },
+  "wc_mu": 1.4107883817427387
+}

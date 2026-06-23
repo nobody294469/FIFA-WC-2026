@@ -1,0 +1,18 @@
+Most frequent Round of 32 bracket  (occurred in 1 / 100,000 sims = 0.00%)
+----------------------------------------------------------------------
+  M74:  Czechia  vs  Germany
+  M77:  Cape Verde  vs  Norway
+  M73:  Mexico  vs  Qatar
+  M75:  Morocco  vs  Japan
+  M83:  DR Congo  vs  Ghana
+  M84:  Uruguay  vs  Algeria
+  M81:  Canada  vs  Paraguay
+  M82:  Belgium  vs  Austria
+  M76:  Brazil  vs  Netherlands
+  M78:  Ivory Coast  vs  France
+  M79:  South Korea  vs  Curaçao
+  M80:  Colombia  vs  Croatia
+  M86:  Spain  vs  Argentina
+  M88:  USA  vs  New Zealand
+  M85:  Switzerland  vs  Iran
+  M87:  Australia  vs  Portugal

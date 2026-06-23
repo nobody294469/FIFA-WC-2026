@@ -1,0 +1,38 @@
+==================================================================================
+  TRUE OUT-OF-SAMPLE WORLD CUP BACKTEST
+  (Each model trained exclusively on pre-tournament data)
+==================================================================================
+  2014 FIFA World Cup  [1997 training samples]
+    Champion probability on actual winner (Germany): 11.85%
+    Group qualification accuracy : 0.562
+    Quarterfinalist accuracy     : 0.500
+    Semifinalist accuracy        : 0.750
+    Advancement Brier score      : 0.1162
+    Strengths : ['eventual champion placed in top-5 winner probabilities', 'semi-finalist shortlist captured ≥ half of actual semi-finalists']
+    Failures  : ['group-stage qualification misses were material']
+
+  2018 FIFA World Cup  [3781 training samples]
+    Champion probability on actual winner (France): 4.98%
+    Group qualification accuracy : 0.750
+    Quarterfinalist accuracy     : 0.375
+    Semifinalist accuracy        : 0.000
+    Advancement Brier score      : 0.1255
+    Strengths : ['group-stage qualification signal was strong']
+    Failures  : ['eventual champion outside top-5 winner probabilities', 'semi-finalist shortlist missed most of the eventual final four', 'quarterfinal field was less stable than simulated probabilities suggested']
+
+  2022 FIFA World Cup  [5694 training samples]
+    Champion probability on actual winner (Argentina): 20.33%
+    Group qualification accuracy : 0.562
+    Quarterfinalist accuracy     : 0.750
+    Semifinalist accuracy        : 0.500
+    Advancement Brier score      : 0.1163
+    Strengths : ['eventual champion placed in top-5 winner probabilities', 'semi-finalist shortlist captured ≥ half of actual semi-finalists']
+    Failures  : ['group-stage qualification misses were material']
+
+  Aggregate
+    Mean champion probability  : 12.39%
+    Mean group accuracy        : 0.625
+    Mean QF accuracy           : 0.542
+    Mean SF accuracy           : 0.417
+    Mean Brier score           : 0.1194
+==================================================================================

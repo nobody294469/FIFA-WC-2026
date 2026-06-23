@@ -1,0 +1,100 @@
+{
+  "base_stats": {
+    "Spain": {
+      "Win%": 15.65,
+      "Final%": 23.428,
+      "SF%": 34.410000000000004,
+      "QF%": 47.886,
+      "R16%": 66.048,
+      "R32%": 94.332,
+      "GrpExit%": 5.668
+    },
+    "France": {
+      "Win%": 10.216,
+      "Final%": 17.046,
+      "SF%": 28.4,
+      "QF%": 44.04,
+      "R16%": 65.168,
+      "R32%": 91.686,
+      "GrpExit%": 8.314
+    },
+    "Brazil": {
+      "Win%": 4.694,
+      "Final%": 9.24,
+      "SF%": 18.166,
+      "QF%": 32.048,
+      "R16%": 52.666,
+      "R32%": 88.75,
+      "GrpExit%": 11.25
+    },
+    "England": {
+      "Win%": 4.242,
+      "Final%": 8.426,
+      "SF%": 16.266,
+      "QF%": 28.89,
+      "R16%": 51.892,
+      "R32%": 89.17,
+      "GrpExit%": 10.83
+    }
+  },
+  "avg_pko": {
+    "Spain": 72.36395534338733,
+    "France": 68.42018652157994,
+    "Brazil": 63.13904999442571,
+    "England": 62.30020254177149
+  },
+  "group_diff": {
+    "Spain": {
+      "avg_win_pct": 65.79935372838408,
+      "opponents": [
+        "Cape Verde",
+        "Saudi Arabia",
+        "Uruguay"
+      ]
+    },
+    "France": {
+      "avg_win_pct": 61.73800291785904,
+      "opponents": [
+        "Senegal",
+        "Norway",
+        "Iraq"
+      ]
+    },
+    "Brazil": {
+      "avg_win_pct": 56.02277690564731,
+      "opponents": [
+        "Morocco",
+        "Haiti",
+        "Scotland"
+      ]
+    },
+    "England": {
+      "avg_win_pct": 56.68343656105235,
+      "opponents": [
+        "Croatia",
+        "Ghana",
+        "Panama"
+      ]
+    }
+  },
+  "cf_results": {
+    "France": {
+      "cf_win_pct": 9.184000000000001,
+      "cf_fin_pct": 15.536,
+      "base_win_pct": 10.216,
+      "delta": -1.0319999999999983
+    },
+    "Brazil": {
+      "cf_win_pct": 4.582,
+      "cf_fin_pct": 9.59,
+      "base_win_pct": 4.694,
+      "delta": -0.1120000000000001
+    },
+    "England": {
+      "cf_win_pct": 4.182,
+      "cf_fin_pct": 8.816,
+      "base_win_pct": 4.242,
+      "delta": -0.05999999999999961
+    }
+  }
+}

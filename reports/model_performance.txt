@@ -1,0 +1,31 @@
+──────────────────────────────────────────────────────────────────────────────────
+  MODEL PERFORMANCE  —  XGBClassifier  (Home Win / Draw / Away Win)
+──────────────────────────────────────────────────────────────────────────────────
+  CV Folds        : 5
+  Mean Accuracy   : 0.5100  ± 0.0322
+  Mean Log-Loss   : 1.0092
+  Mean Brier Score: 0.6036
+  Mean F1 (macro) : 0.3816
+
+  Per-fold breakdown:
+    Fold 1: acc=0.5281  logloss=1.0023  brier=0.6009  f1=0.4096
+    Fold 2: acc=0.5156  logloss=1.0031  brier=0.5976  f1=0.3781
+    Fold 3: acc=0.5281  logloss=0.9953  brier=0.5929  f1=0.3915
+    Fold 4: acc=0.5250  logloss=0.9938  brier=0.5914  f1=0.3749
+    Fold 5: acc=0.4531  logloss=1.0517  brier=0.6352  f1=0.3541
+
+  Feature Importance (normalised gain):
+    elo_diff                       ███░░░░░░░░░░░░░░░  0.1905
+    opp_adj_form_diff              █░░░░░░░░░░░░░░░░░  0.0764
+    gd_diff                        █░░░░░░░░░░░░░░░░░  0.0761
+    neutral_venue                  █░░░░░░░░░░░░░░░░░  0.0713
+    home_draw_rate                 █░░░░░░░░░░░░░░░░░  0.0700
+    match_type_enc                 █░░░░░░░░░░░░░░░░░  0.0689
+    home_loss_rate                 █░░░░░░░░░░░░░░░░░  0.0686
+    home_form                      █░░░░░░░░░░░░░░░░░  0.0668
+    away_form                      █░░░░░░░░░░░░░░░░░  0.0664
+    form_diff                      █░░░░░░░░░░░░░░░░░  0.0651
+    away_win_rate                  █░░░░░░░░░░░░░░░░░  0.0618
+    home_win_rate                  █░░░░░░░░░░░░░░░░░  0.0596
+    away_draw_rate                 █░░░░░░░░░░░░░░░░░  0.0585
+──────────────────────────────────────────────────────────────────────────────────

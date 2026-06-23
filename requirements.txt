@@ -1,0 +1,8 @@
+numpy
+pandas
+xgboost
+shap
+scikit-learn
+requests
+pyarrow
+fastparquet

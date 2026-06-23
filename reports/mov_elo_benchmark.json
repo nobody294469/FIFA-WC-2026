@@ -1,0 +1,30 @@
+{
+  "gate_passed": false,
+  "logloss_delta": -0.0009682636682915025,
+  "brier_delta": -0.0006180431992433011,
+  "ht_brier_delta": -0.0005850391145833522,
+  "baseline_cv": {
+    "accuracy": 0.519375,
+    "log_loss": 1.004483039589697,
+    "brier_score": 0.601023874062807,
+    "f1_macro": 0.3844896442306964
+  },
+  "mov_cv": {
+    "accuracy": 0.5237499999999999,
+    "log_loss": 1.0035147759214056,
+    "brier_score": 0.6004058308635637,
+    "f1_macro": 0.38778549477055063
+  },
+  "baseline_elo": {
+    "pearson_correlation": 0.3600216641845912,
+    "sign_accuracy": 0.6955617198335645,
+    "elo_logloss": 1.0347569436140627
+  },
+  "mov_elo": {
+    "pearson_correlation": 0.36197001442010374,
+    "sign_accuracy": 0.6941747572815534,
+    "elo_logloss": 1.0491092703240776
+  },
+  "baseline_bt_brier": 0.11964697416666668,
+  "mov_bt_brier": 0.11906193505208333
+}

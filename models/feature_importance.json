@@ -1,0 +1,16 @@
+{
+  "elo_diff": 0.339536,
+  "h2h_diff": 0.11694,
+  "opp_adj_form_diff": 0.112572,
+  "neutral_venue": 0.073104,
+  "gd_diff": 0.055786,
+  "match_type_enc": 0.042931,
+  "away_draw_rate": 0.038877,
+  "form_diff": 0.038769,
+  "home_loss_rate": 0.035729,
+  "home_form": 0.034421,
+  "away_form": 0.032234,
+  "home_win_rate": 0.027391,
+  "away_win_rate": 0.02645,
+  "home_draw_rate": 0.025259
+}

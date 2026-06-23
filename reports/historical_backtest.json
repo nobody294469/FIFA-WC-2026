@@ -1,0 +1,129 @@
+{
+  "tournaments": [
+    {
+      "year": 2014,
+      "actual_champion": "Germany",
+      "winner_probability_for_actual_champion": 15.790000000000001,
+      "group_stage_qualification_accuracy": 0.625,
+      "quarterfinalist_accuracy": 0.5,
+      "semifinalist_accuracy": 0.75,
+      "advancement_brier_score": 0.11587002453125,
+      "simulation_runtime_s": 0.11279280000053404,
+      "top5_winner_probabilities": [
+        {
+          "team": "Brazil",
+          "champion_pct": 20.97
+        },
+        {
+          "team": "Spain",
+          "champion_pct": 16.54
+        },
+        {
+          "team": "Germany",
+          "champion_pct": 15.790000000000001
+        },
+        {
+          "team": "Argentina",
+          "champion_pct": 9.21
+        },
+        {
+          "team": "Portugal",
+          "champion_pct": 4.65
+        }
+      ],
+      "strengths": [
+        "eventual champion placed in top-5 winner probabilities",
+        "semi-finalist shortlist captured at least half of actual semi-finalists"
+      ],
+      "failures": [
+        "group-stage qualification misses were material"
+      ]
+    },
+    {
+      "year": 2018,
+      "actual_champion": "France",
+      "winner_probability_for_actual_champion": 3.7699999999999996,
+      "group_stage_qualification_accuracy": 0.8125,
+      "quarterfinalist_accuracy": 0.375,
+      "semifinalist_accuracy": 0.0,
+      "advancement_brier_score": 0.125187514375,
+      "simulation_runtime_s": 0.11724779999985913,
+      "top5_winner_probabilities": [
+        {
+          "team": "Brazil",
+          "champion_pct": 19.470000000000002
+        },
+        {
+          "team": "Germany",
+          "champion_pct": 16.06
+        },
+        {
+          "team": "Spain",
+          "champion_pct": 15.939999999999998
+        },
+        {
+          "team": "Argentina",
+          "champion_pct": 7.7700000000000005
+        },
+        {
+          "team": "Portugal",
+          "champion_pct": 7.71
+        }
+      ],
+      "strengths": [
+        "group-stage qualification signal was strong"
+      ],
+      "failures": [
+        "eventual champion was outside the top-5 winner probabilities",
+        "semi-finalist shortlist missed most of the eventual final four",
+        "quarterfinal field was less stable than simulated probabilities suggested"
+      ]
+    },
+    {
+      "year": 2022,
+      "actual_champion": "Argentina",
+      "winner_probability_for_actual_champion": 23.830000000000002,
+      "group_stage_qualification_accuracy": 0.5625,
+      "quarterfinalist_accuracy": 0.625,
+      "semifinalist_accuracy": 0.5,
+      "advancement_brier_score": 0.11494484625,
+      "simulation_runtime_s": 0.12566979999974137,
+      "top5_winner_probabilities": [
+        {
+          "team": "Brazil",
+          "champion_pct": 24.959999999999997
+        },
+        {
+          "team": "Argentina",
+          "champion_pct": 23.830000000000002
+        },
+        {
+          "team": "France",
+          "champion_pct": 6.890000000000001
+        },
+        {
+          "team": "Spain",
+          "champion_pct": 6.34
+        },
+        {
+          "team": "Netherlands",
+          "champion_pct": 5.7
+        }
+      ],
+      "strengths": [
+        "eventual champion placed in top-5 winner probabilities",
+        "semi-finalist shortlist captured at least half of actual semi-finalists"
+      ],
+      "failures": [
+        "group-stage qualification misses were material"
+      ]
+    }
+  ],
+  "aggregate": {
+    "mean_winner_probability_for_actual_champion": 14.463333333333333,
+    "mean_group_stage_qualification_accuracy": 0.6666666666666666,
+    "mean_quarterfinalist_accuracy": 0.5,
+    "mean_semifinalist_accuracy": 0.4166666666666667,
+    "mean_advancement_brier_score": 0.11866746171874999
+  }
+}
